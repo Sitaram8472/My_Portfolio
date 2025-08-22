@@ -1,3 +1,4 @@
+
 .navbar {
   position: sticky;
   top: 0;
@@ -104,9 +105,9 @@
   .nav-links {
     display: none; /* hide normal nav links */
   }
-  .logo{
-  display: none;
-}
+  .logo {
+    display: none;
+  }
 
   .navbar-container {
     display: flex;
@@ -115,16 +116,15 @@
     width: 100%;
     padding: 10px 20px;
   }
-    .menu {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 2rem;
-      cursor: pointer;
-      padding: 0 10px 10px 10px;
-    }
-    .logo-mob{
-      font-weight: bold;
-    }
-  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0 10px 10px 10px;
+  }
+  .logo-mob {
+    font-weight: bold;
+  }
 }
