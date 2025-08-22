@@ -1,3 +1,4 @@
+// import section
 import NavBarSection from './Components/NavBar/NavBarSection'
 import Home from './Components/Home/Home';
 import About from './Components/AboutSection/About';
