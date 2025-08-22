@@ -1,4 +1,5 @@
 import "./Home.css";
+import profileImg from "../../assets/profileimg.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -45,7 +46,7 @@ const Home = () => {
 
       {/* Right Section */}
       <div className="home_right">
-        <img src="/src/assets/profileimg.jpg" alt="My Profile" />
+        <img src={profileImg} alt="profile img" />
         <div className="cp-main">
           <h2>CP Profile</h2>
           <div className="cp">
