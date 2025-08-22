@@ -14,14 +14,11 @@ const Footer = () => {
 
         {/* Social Links */}
         <div className="social-links">
-          <a href="https://github.com/yourgithub" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Sitaram8472" target="_blank" rel="noreferrer">
             GitHub
           </a>
-          <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/sitaram-sahu/" target="_blank" rel="noreferrer">
             LinkedIn
-          </a>
-          <a href="https://leetcode.com/yourleetcode" target="_blank" rel="noreferrer">
-            LeetCode
           </a>
         </div>
 

@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   background-color: #200e51;
+  /* font-family: "Zain", sans-serif; */
+  /* font-weight: 200;
+  font-style: normal; */
 }
 /* html {
   scroll-behavior: smooth;

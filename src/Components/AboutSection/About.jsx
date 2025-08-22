@@ -1,5 +1,8 @@
 import "./About.css";
 import profileImg from "../../assets/profileimg.jpg";
+import { SiCodeforces } from "react-icons/si";
+import { SiLeetcode } from "react-icons/si";
+import { SiCodechef } from "react-icons/si";
 
 const About = () => {
   // const details = [
@@ -24,17 +27,17 @@ const About = () => {
                 Hello! I'm <span className="highlight">Sitaram Sahu</span> from
                 <span className="highlight"> Darbhanga, Bihar</span>. Currently,
                 I am pursuing my{" "}
-                <strong>B.Tech in Information Technology</strong>
+                <strong>B.Tech in Information Technology </strong>
                 at <strong>JIS College of Engineering</strong>. I completed my
                 schooling from the <strong>CBSE board</strong> (Class 10 & 12).
               </p>
 
               <p className="intro">
                 I am deeply passionate about{" "}
-                <strong>coding and problem-solving</strong>. and I enjoy solving
-                Data Structures & Algorithms problems I actively practice coding
-                on platforms like <strong>LeetCode</strong> and{" "}
-                <strong>CodeChef</strong>.
+                <strong>coding and problem-solving</strong>, and I enjoy solving
+                Data Structures & Algorithms problems. I actively practice
+                coding on platforms like <strong>LeetCode</strong>,{" "}
+                <strong>CodeChef</strong>, and <strong>CodeForces</strong>.
               </p>
 
               <p>
@@ -69,6 +72,32 @@ const About = () => {
           {/* Right Side: Profile Image */}
           <div className="about-image">
             <img src={profileImg} alt="Sitaram Sahu" />
+            <div className="cp-main">
+              <h2>CP Profile</h2>
+              <div className="cp">
+                <a
+                  href="https://codeforces.com/profile/sitaramSahu"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {<SiCodeforces />}
+                </a>
+                <a
+                  href="https://leetcode.com/u/sitaramkr831/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {<SiLeetcode />}
+                </a>
+                <a
+                  href="https://www.codechef.com/users/sitaramsahu"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {<SiCodechef />}
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
