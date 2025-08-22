@@ -88,6 +88,7 @@ html {
     padding-top: 60px;
     flex-direction: column;
     text-align: center;
+    padding: 20px;
   }
 
   .home_left {
@@ -98,6 +99,19 @@ html {
   .home_right img {
     width: 200px;
     height: 200px;
+  }
+  .home_right{
+    align-items: center;
+    padding-right: 20px;
+  }
+  .cp-main{
+    margin-right: 20px;
+  }
+  .cp-main h2{
+    margin-right: 40px;
+  }
+  .socials{
+    margin-left: 60px;
   }
 }
 
