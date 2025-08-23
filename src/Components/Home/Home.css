@@ -84,6 +84,9 @@ html {
 
 
 @media (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
   .home {
     padding-top: 60px;
     flex-direction: column;
