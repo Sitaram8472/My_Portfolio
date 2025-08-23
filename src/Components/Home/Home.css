@@ -84,9 +84,6 @@ html {
 
 
 @media (max-width: 768px) {
-  body{
-    overflow-x: hidden;
-  }
   .home {
     padding-top: 60px;
     flex-direction: column;
@@ -97,6 +94,7 @@ html {
   .home_left {
     max-width: 100%;
     margin-bottom: 2rem;
+    padding-top: 30px;
   }
 
   .home_right img {
