@@ -63,7 +63,7 @@
   right: -300px; /* hidden outside */
   width: 300px;
   height: 800px;
-  background: black;
+  background: #190b3f;
   display: flex;
   flex-direction: column;
   padding: 2rem;
