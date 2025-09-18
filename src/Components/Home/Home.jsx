@@ -1,11 +1,12 @@
 import "./Home.css";
-import profileImg from "../../assets/profileimg.jpg";
+// import profileImg from "../../assets/profileimg.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { SiCodeforces } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si";
 import { SiCodechef } from "react-icons/si";
+import img1 from "../../assets/img1.png";
 
 const Home = () => {
   return (
@@ -46,7 +47,7 @@ const Home = () => {
 
       {/* Right Section */}
       <div className="home_right">
-        <img src={profileImg} alt="profile img" />
+        <img src={img1} alt="profile img" />
         <div className="cp-main">
           <h2>CP Profile</h2>
           <div className="cp">
