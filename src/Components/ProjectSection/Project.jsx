@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Hackathon from "../../assets/HackathonImg.png";
+import Portofolio from "../../assets/Portofolio.png";
 
 const projects = [
   {
@@ -17,7 +19,7 @@ const projects = [
     description:
       "A simple and responsive registration form that collects participant details and stores them securely for easy management, making hackathon registrations smooth and organized.",
     technologies: ["React", "TailWindCSS"],
-    image: "src/assets/HackathonImg.png",
+    image: Hackathon,
     github: "https://github.com/Sitaram8472/Hackathon_Upload",
     liveDemo: "#",
   },
@@ -27,7 +29,7 @@ const projects = [
     description:
       "My personal portfolio website to showcase my projects, skills, and contact information with a smooth, modern UI.",
     technologies: ["React", "Tailwind CSS"],
-    image: "src/assets/Portofolio.png",
+    image: Portofolio,
     github: "https://github.com/Sitaram8472/Portfolio_React",
     liveDemo: "#",
   },
