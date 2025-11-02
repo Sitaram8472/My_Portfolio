@@ -12,7 +12,9 @@ const NavBarSection = () => {
     { label: "About", href: "#about" },
     { label: "Projects", href: "#projects" },
     { label: "Achievements", href: "#achievements" },
+    { label: "OpenSources", href: "#opensources"},
     { label: "Contact", href: "#contact" },
+    
   ];
 
   return (
