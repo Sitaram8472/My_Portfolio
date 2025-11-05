@@ -111,7 +111,7 @@ const ProjectSection = ({ title, projects }) => (
 
 const OpenSources = () => {
   return (
-    <div className="p-6 max-w-5xl mx-auto" id="opensources">
+    <div className="p-6 max-w-5xl mx-auto py-28" id="opensources">
       <h1 className="text-3xl font-bold text-center mb-10 text-white">
         🌍 Open Source Contributions
       </h1>

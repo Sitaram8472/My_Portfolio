@@ -1,6 +1,8 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrClose } from "react-icons/gr";
 import { useState } from "react";
+// import portoflioLogo from "../../assets/portoflioLogo.png";
+
 
 const NavBarSection = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +25,8 @@ const NavBarSection = () => {
       <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
         {/* Left Section: Logo */}
         <div className="text-white text-2xl font-bold tracking-wide">
-          My Portfolio
+          {/* <img src={portoflioLogo} alt="error" className="w-80 h-12"/> */}
+          My PortFolio
         </div>
 
         {/* Right Section: Nav Links (Desktop Only) */}

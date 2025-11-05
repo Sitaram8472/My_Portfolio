@@ -16,7 +16,7 @@ const Contact = () => {
           </p>
 
           <p>
-            <strong>📧 Email:</strong> sitaramsahu@example.com
+            <strong>📧 Email:</strong> sitaramsahu8472@gmail.com
           </p>
           <p>
             <strong>🌍 Location:</strong> Darbhanga, Bihar, India
@@ -24,7 +24,7 @@ const Contact = () => {
 
           <div className="mt-4 flex flex-wrap gap-4">
             <a
-              href="https://github.com/yourgithub"
+              href="https://github.com/Sitaram8472"
               target="_blank"
               rel="noreferrer"
               className="text-sky-400 font-bold hover:text-sky-300 transition-colors"
@@ -32,7 +32,7 @@ const Contact = () => {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/yourlinkedin"
+              href="https://www.linkedin.com/in/sitaram-sahu/"
               target="_blank"
               rel="noreferrer"
               className="text-sky-400 font-bold hover:text-sky-300 transition-colors"
@@ -40,7 +40,7 @@ const Contact = () => {
               LinkedIn
             </a>
             <a
-              href="https://leetcode.com/yourleetcode"
+              href="https://leetcode.com/u/sitaramkr831/"
               target="_blank"
               rel="noreferrer"
               className="text-sky-400 font-bold hover:text-sky-300 transition-colors"

@@ -4,6 +4,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { SiCodeforces, SiLeetcode, SiCodechef } from "react-icons/si";
 import img1 from "../../assets/img1.png";
 
+
 const Home = () => {
   return (
     <div
