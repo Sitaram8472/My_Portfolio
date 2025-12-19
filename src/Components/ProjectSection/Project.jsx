@@ -5,26 +5,36 @@ import Portofolio from "../../assets/Portofolio.png";
 const projects = [
   {
     id: 1,
-    title: "Recipedia",
+    title: "Academic-Resource-Portal",
     description:
-      "A recipe-sharing platform where users can explore, create, and share recipes. Includes authentication, image uploads, and category filtering.",
+      "The Academic Resource Portal provides a single point of access for students and faculty to manage and consume academic materials efficiently. The system emphasizes role-based access, responsive design, and reusable UI components to ensure scalability and ease of use.",
     technologies: ["React", "Node.js", "MongoDB", "Express"],
-    image: "/images/recipedia.png",
-    github: "https://github.com/Sitaram8472/RECIPEDIA",
-    liveDemo: "https://recipedia.vercel.app",
+    // image: "/images/recipedia.png",
+    github: "https://github.com/Sitaram8472/Academic-Resource-Portal",
+    // liveDemo: "https://recipedia.vercel.app",
   },
   {
     id: 2,
+    title: "Docs_mini_app-React",
+    description:
+      "A card-based document management app built with React and Tailwind CSS, allowing you to easily move, arrange, and organize cards interactively. ✨ Features include drag-and-drop functionality, a clean and responsive UI, and smooth animations for a better user experience..",
+    technologies: ["React"],
+    image: "/images/recipedia.png",
+    github: "https://github.com/Sitaram8472/Docs_mini_app-React-",
+    // liveDemo: "https://recipedia.vercel.app",
+  },
+  {
+    id: 3,
     title: "Hackathon Upload",
     description:
       "A simple and responsive registration form that collects participant details and stores them securely for easy management, making hackathon registrations smooth and organized.",
     technologies: ["React", "TailWindCSS"],
     image: Hackathon,
     github: "https://github.com/Sitaram8472/Hackathon_Upload",
-    liveDemo: "#",
+    // liveDemo: "#",
   },
   {
-    id: 3,
+    id: 4,
     title: "Portfolio Website",
     description:
       "My personal portfolio website to showcase my projects, skills, and contact information with a smooth, modern UI.",

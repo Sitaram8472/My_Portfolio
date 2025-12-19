@@ -17,7 +17,7 @@ const achievements = [
     icon: <Star className="w-10 h-10 text-green-400" />,
     title: "Full-Stack Project Development",
     description:
-      "Built 5+ full-stack projects with modern UI, authentication, REST APIs, and database integrations, delivering scalable and production-ready solutions.",
+      "Built 2 full-stack projects with modern UI, authentication, REST APIs, and database integrations, delivering scalable and production-ready solutions.",
   },
   {
     icon: <Code className="w-10 h-10 text-purple-400" />,
@@ -25,12 +25,12 @@ const achievements = [
     description:
       "Participated in hackathons and built innovative projects within tight deadlines, focusing on teamwork, rapid prototyping, and real-world problem solving.",
   },
-  {
-    icon: <Briefcase className="w-10 h-10 text-orange-400" />,
-    title: "Internship Experience",
-    description:
-      "Worked as a Web Development Intern, contributing to backend APIs and frontend UI components, gaining hands-on experience in real-world production systems.",
-  },
+  // {
+  //   icon: <Briefcase className="w-10 h-10 text-orange-400" />,
+  //   title: "Internship Experience",
+  //   description:
+  //     "Worked as a Web Development Intern, contributing to backend APIs and frontend UI components, gaining hands-on experience in real-world production systems.",
+  // },
   {
     icon: <Users className="w-10 h-10 text-pink-400" />,
     title: "Community Engagement",
