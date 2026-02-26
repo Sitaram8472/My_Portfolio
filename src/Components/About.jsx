@@ -53,14 +53,35 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-4 text-blue-400">
               The Journey
             </h3>
-            <p className="text-gray-300 leading-relaxed">
-              Hello! I'm{" "}
-              <span className="font-bold text-white">Sitaram Sahu</span>.
-              Currently, I am a 3rd-year IT student at{" "}
-              <span className="text-white">JIS College of Engineering</span>. I
-              thrive on building scalable web apps with the{" "}
-              <span className="text-white">MERN stack</span> and solving the
-              toughest logic puzzles in CP.
+            <p className="text-[13px] md:text-sm text-gray-400 leading-snug tracking-wide">
+              I am <span className="text-white font-bold">Sitaram Sahu</span>, a
+              3rd-year IT student at
+              <span className="text-white"> JIS College of Engineering</span>. A
+              dedicated
+              <span className="text-blue-400 font-semibold">
+                {" "}
+                Java DSA
+              </span>{" "}
+              specialist with
+              <span className="text-white font-bold">
+                {" "}
+                900+ problems solved
+              </span>
+              , I also build scalable apps with the
+              <span className="text-orange-400 font-semibold">
+                {" "}
+                MERN Stack
+              </span>{" "}
+              and am currently
+              <span className="text-cyan-400 font-medium">
+                {" "}
+                exploring Machine Learning
+              </span>
+              . Actively{" "}
+              <span className="text-green-400 font-medium italic">
+                seeking internship opportunities
+              </span>{" "}
+              to drive innovative software solutions.
             </p>
           </div>
 

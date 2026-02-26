@@ -40,10 +40,18 @@ const Home = () => {
             Full-Stack Developer & Content Creator 🎥
           </h2>
 
-          <p className="text-gray-500 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-            I build high-performance web applications using the MERN stack and
-            teach Data Structures & Algorithms on my YouTube channel,
-            **CodeWithSitaram**.
+          <p className="text-gray-400 max-w-lg mx-auto lg:mx-0 leading-relaxed text-sm">
+            I build high-performance web applications using the{" "}
+            <span className="text-white">MERN stack</span>, explore{" "}
+            <span className="text-white font-medium">Machine Learning</span>,
+            and teach
+            <span className="text-white font-medium"> Java-based DSA</span> on
+            my YouTube channel,
+            <span className="font-bold text-white italic">
+              {" "}
+              CodeWithSitaram
+            </span>
+            .
           </p>
 
           <div className="flex flex-wrap justify-center lg:justify-start gap-4 pt-4">
