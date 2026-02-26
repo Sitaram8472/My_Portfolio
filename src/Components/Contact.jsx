@@ -130,7 +130,7 @@ const Contact = () => {
           {/* Right Side: Contact Form */}
           <div className="order-1 lg:order-2">
             <form
-              action="https://formspree.io/f/mzzbgkzn"
+              action="https://formspree.io/f/xreajqpr"
               method="POST"
               className="bg-white/5 border border-white/10 p-8 md:p-10 rounded-[2.5rem] backdrop-blur-xl shadow-2xl"
             >
